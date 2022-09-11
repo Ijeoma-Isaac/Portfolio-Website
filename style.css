@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+}
+
+header {
+    background-color: #be3144;
+    border-bottom: 2px solid black;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+li a:link {
+    display: inline-block;
+    padding: 1.5rem;
+    color: wheat;
+}
+
+li a:visited {
+    color: antiquewhite;
+}
+
+li a:focus {
+    outline: 3px solid black;
+}
+
+li a:hover {
+    background-color: blue;
+}
+
+li a:active {
+    background-color: cadetblue;
+}
