@@ -123,3 +123,28 @@ div.container:hover .tag {
     background-color: #be3144;
     transition: 400ms ease;
 }
+
+.work {
+    text-align: center;
+    background-color: #293045;
+    height: 70vh;
+}
+
+.together h2 {
+    font-size: 3rem;
+    margin-bottom: auto;
+}
+
+.together p {
+    font-size: 2rem;
+    font-style: italic;
+    margin-bottom: 5vh;
+}
+
+.together a {
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+    margin: 20px;
+    margin-top: auto;
+}
